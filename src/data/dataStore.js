@@ -12,6 +12,7 @@ export const settings = {
 	},
 	defaultListDescription: '<p>I can do all the things!!!</p>',
 	defaultColumnIcon: 'list-alt',
+	headerIcon: 'fas fa-kiwi-bird',
 };
 
 export const pageContents = {
@@ -146,6 +147,18 @@ const initialStoreData = {
 	lists: [...lists],
 	columns: [...columns],
 	cards: [...cards],
+};
+
+export const FAQData = {
+	title: 'How can I help you?',
+	image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+	description: 'Interesting things I want to check out!',
+};
+
+export const InfoData = {
+	title: 'Info',
+	image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+	description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
 };
 
 export default initialStoreData;
