@@ -2,15 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './Column.scss';
 import Card from '../Card/Card.js';
-import {settings} from '../../data/dataStore';
 
 class SearchResults extends React.Component {
 	static propTypes = {
 		cards: PropTypes.array,
-	}
-
-	static defaultProps = {
-		icon: settings.defaultColumnIcon,
 	}
 
 	render() {
