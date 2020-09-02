@@ -14,7 +14,7 @@ class Search extends React.Component {
 		changeSearchString: PropTypes.func,
 		countVisible: PropTypes.number,
 		countAll: PropTypes.number,
-		history: PropTypes.node,
+		history: PropTypes.object,
 	}
 
 	static defaultProps = {
@@ -44,6 +44,7 @@ class Search extends React.Component {
 	}
 
 	render() {
+		console.log (this.props, this.state);
 		const {text, countVisible, countAll} = this.props;
 		const {value} = this.state;
 		const {icon} = settings.search;
