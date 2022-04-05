@@ -9,6 +9,7 @@
 
 A to-do app that has several lists. When you select a list, you are shown sorted columns that contain cards. The search field allows you to search the to-do cards and shows them on a separate page. It is possible to add more columns and cards.
 
+[:sparkles: Published version](https://marcela-os.github.io/React-starter/)
 
 ## Tech Stack
 

@@ -7,7 +7,8 @@ const baseConfig = () => ({
 	entry: './src/index.js',
 	output: {
 		path: path.join(__dirname, 'dist'),
-		publicPath: '/',
+		//publicPath: '/',
+		publicPath: '/React-starter/',
 		filename: 'scripts_bundle.js',
 	},
 	devServer: {
