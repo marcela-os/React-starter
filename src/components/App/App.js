@@ -11,7 +11,7 @@ import SearchResults from '../SearchResults/SearchResultsContainer';
 
 
 const App = () => (
-	<BrowserRouter>
+	<BrowserRouter basename={window.location.pathname || ''}>
 		<MainLayout>
 			<AnimatedSwitch
 				atEnter={{ opacity: 0 }}
